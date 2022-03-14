@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  font-size: 30px;
+  background-image: url("https://i.guim.co.uk/img/media/55e46c45fe4f70f64c0b3439fcd1aaeba232df6d/0_236_5120_3072/master/5120.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ac526af824faa26c936862df1859156a");
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* MAIN INFO */
+
+.main-info {
+  background-color: rgb(99, 202, 130);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 15px;
+  border: solid 1px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+#llama-head {
+  display: block;
+  margin: auto;
+}
+
+.animate__headShake {
+  animation: move 5s ease;
+}
+
+#llama-gif {
+  animation: slidein 0.7s ease-in;
+}
+
+@keyframes slidein {
+  0% {
+    transform: skewX(53deg) translateX(-500px);
+  }
+
+  100% {
+    transform: skew(0deg);
+  }
+}
